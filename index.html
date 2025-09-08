@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kola Afeez</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Kolade Afeez - Senior Software Developer | .NET | AI | Fintech Solutions</title>
+    <meta name="title" content="Kola Afeez - Senior Software Developer | .NET | AI | Fintech Solutions">
+    <meta name="description" content="Experienced Software Developer with 4+ years in .NET, microservices, and AI. Currently pursuing MSc in AI at University of Stirling. Specialized in fintech and banking solutions.">
+    <meta name="keywords" content="Kola Afeez, Software Developer, .NET Developer, C# Developer, Microservices, AI Developer, Fintech, Banking Software, ASP.NET Core, React Developer, Sterling Bank, KLAR Banking, University of Stirling">
+    <meta name="author" content="Kola Afeez">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kolaafeez.dev/">
+    <meta property="og:title" content="Kola Afeez - Senior Software Developer | .NET | AI | Fintech Solutions">
+    <meta property="og:description" content="Experienced Software Developer with 4+ years in .NET, microservices, and AI. Currently pursuing MSc in AI at University of Stirling.">
+    <meta property="og:image" content="https://kolaafeez.dev/assets/kola-afeez-og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Kola Afeez - Senior Software Developer | .NET | AI | Fintech Solutions">
+    <meta property="twitter:creator" content="@koladeafeez">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kolaafeez.dev/">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kolade Afeez",
+        "alternateName": "Kolade Afeez",
+        "description": "Senior Software Developer specializing in .NET, microservices architecture, and AI solutions",
+        "url": "https://kolaafeez.dev",
+        "sameAs": [
+            "https://github.com/koladeafeez",
+            "https://www.linkedin.com/in/kolade-afeez-2233a2175",
+            "https://twitter.com/koladeafeez",
+            "https://koladeafeez.substack.com",
+            "https://www.f6s.com/kolade-afeez"
+        ],
+        "jobTitle": "Senior Software Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Intend Business Development"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Stirling",
+            "url": "https://www.stir.ac.uk/"
+        },
+        "knowsAbout": [
+            "Software Development", ".NET Framework", "C# Programming", "Microservices Architecture",
+            "Artificial Intelligence", "Machine Learning", "Fintech Solutions", "Banking Software"
+        ],
+        "email": "kola.s.afeez@gmail.com"
+    }
+    </script>
+    
     <style>
         :root {
             --navy: #0a192f;
@@ -45,10 +106,6 @@
             --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
             
             --hamburger-width: 30px;
-            --ham-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
-            --ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
-            --ham-after: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-            --ham-after-active: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
         }
 
         * {
@@ -70,13 +127,11 @@
             counter-reset: section;
         }
 
-        /* Selection */
         ::selection {
             background-color: var(--lightest-navy);
             color: var(--lightest-slate);
         }
 
-        /* Scrollbar */
         ::-webkit-scrollbar {
             width: 12px;
         }
@@ -91,13 +146,11 @@
             border-radius: 10px;
         }
 
-        /* Focus styles */
         a:focus-visible {
             outline: 2px solid var(--green);
             outline-offset: 3px;
         }
 
-        /* Skip to content */
         .skip-to-content {
             position: absolute;
             top: auto;
@@ -122,7 +175,6 @@
             border-radius: var(--border-radius);
         }
 
-        /* Header */
         header {
             display: flex;
             justify-content: space-between;
@@ -136,15 +188,10 @@
             background-color: rgba(10, 25, 47, 0.85);
             backdrop-filter: blur(10px);
             transition: var(--transition);
-            filter: none !important;
-            pointer-events: auto !important;
-            user-select: auto !important;
         }
 
         header.scrolled {
             height: var(--nav-scroll-height);
-            transform: translateY(0px);
-            background-color: rgba(10, 25, 47, 0.85);
             box-shadow: 0 10px 30px -10px var(--navy-shadow);
         }
 
@@ -235,7 +282,6 @@
             background-color: var(--green-tint);
         }
 
-        /* Main content */
         main {
             margin: 0 auto;
             width: 100%;
@@ -244,11 +290,6 @@
             padding: 0 150px;
         }
 
-        .fillHeight {
-            padding: 0 150px;
-        }
-
-        /* Hero Section */
         .hero {
             display: flex;
             justify-content: center;
@@ -290,7 +331,6 @@
             color: var(--slate);
         }
 
-        /* Section */
         section {
             margin: 0 auto;
             padding: 100px 0;
@@ -330,7 +370,6 @@
             background-color: var(--lightest-navy);
         }
 
-        /* About */
         .about-content {
             display: grid;
             grid-template-columns: 3fr 2fr;
@@ -394,18 +433,6 @@
             box-shadow: 0 20px 30px -15px var(--navy-shadow);
         }
 
-        .wrapper:hover .img,
-        .wrapper:focus .img {
-            filter: none;
-            mix-blend-mode: normal;
-        }
-
-        .wrapper:hover:before,
-        .wrapper:focus:before {
-            top: 15px;
-            left: 15px;
-        }
-
         .wrapper:before {
             content: '';
             display: block;
@@ -421,14 +448,6 @@
             z-index: 3;
         }
 
-        .img {
-            position: relative;
-            border-radius: var(--border-radius);
-            mix-blend-mode: multiply;
-            filter: grayscale(100%) contrast(1);
-            transition: var(--transition);
-        }
-
         .img-placeholder {
             display: flex;
             align-items: center;
@@ -441,7 +460,6 @@
             font-size: 4rem;
         }
 
-        /* Experience */
         .jobs {
             list-style: none;
             padding: 0;
@@ -563,350 +581,67 @@
             line-height: 12px;
         }
 
-        /* Projects */
-        .projects-grid {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        .profile-links {
+            padding: 80px 0;
+            text-align: center;
         }
 
-        .project {
-            position: relative;
+        .profile-links h2 {
+            margin-bottom: 40px;
+            color: var(--lightest-slate);
+        }
+
+        .profiles-grid {
             display: grid;
-            gap: 10px;
-            grid-template-columns: repeat(12, 1fr);
-            align-items: center;
-            margin-bottom: 100px;
-        }
-
-        .project:last-of-type {
-            margin-bottom: 0;
-        }
-
-        .project.odd .project-content {
-            grid-column: 1 / 7;
-            text-align: left;
-        }
-
-        .project.even .project-content {
-            grid-column: 7 / -1;
-            text-align: right;
-        }
-
-        .project.odd .project-image {
-            grid-column: 6 / -1;
-        }
-
-        .project.even .project-image {
-            grid-column: 1 / 8;
-        }
-
-        .project-content {
-            position: relative;
-            grid-row: 1 / -1;
-            z-index: 5;
-        }
-
-        .project-overline {
-            margin: 10px 0;
-            color: var(--green);
-            font-family: var(--font-mono);
-            font-size: var(--fz-xs);
-            font-weight: 400;
-        }
-
-        .project-title {
-            color: var(--lightest-slate);
-            font-size: clamp(24px, 5vw, 28px);
-        }
-
-        .project-description {
-            box-shadow: 0 10px 30px -15px var(--navy-shadow);
-            transition: var(--transition);
-            position: relative;
-            z-index: 2;
-            padding: 25px;
-            border-radius: var(--border-radius);
-            background-color: var(--light-navy);
-            color: var(--light-slate);
-            font-size: var(--fz-lg);
-        }
-
-        .project-description a {
-            display: inline-block;
-            position: relative;
-            transition: var(--transition);
-            color: var(--green);
-            text-decoration: none;
-        }
-
-        .project-description a:hover,
-        .project-description a:focus {
-            color: var(--green);
-        }
-
-        .project-description a:hover:after,
-        .project-description a:focus:after {
-            width: 100%;
-        }
-
-        .project-description a:after {
-            content: '';
-            display: block;
-            width: 0;
-            height: 1px;
-            position: relative;
-            bottom: 0.37em;
-            background-color: var(--green);
-            transition: var(--transition);
-            opacity: 0.5;
-        }
-
-        .project.even .project-description {
-            text-align: left;
-        }
-
-        .project-tech-list {
-            display: flex;
-            flex-wrap: wrap;
-            position: relative;
-            z-index: 2;
-            margin: 25px 0 10px;
-            padding: 0;
-            list-style: none;
-        }
-
-        .project.even .project-tech-list {
-            justify-content: flex-end;
-        }
-
-        .project-tech-list li {
-            margin: 0 20px 5px 0;
-            color: var(--light-slate);
-            font-family: var(--font-mono);
-            font-size: var(--fz-xs);
-            white-space: nowrap;
-        }
-
-        .project.even .project-tech-list li {
-            margin: 0 0 5px 20px;
-        }
-
-        .project-links {
-            display: flex;
-            align-items: center;
-            position: relative;
-            margin-top: 10px;
-            margin-left: -10px;
-            color: var(--lightest-slate);
-        }
-
-        .project.even .project-links {
-            justify-content: flex-end;
-            margin-left: 0;
-            margin-right: -10px;
-        }
-
-        .project-links a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            color: var(--lightest-slate);
-            text-decoration: none;
-        }
-
-        .project-links a:hover,
-        .project-links a:focus {
-            color: var(--green);
-        }
-
-        .project-links a svg {
-            width: 20px;
-            height: 20px;
-        }
-
-        .project-image {
-            box-shadow: 0 10px 30px -15px var(--navy-shadow);
-            transition: var(--transition);
-            grid-row: 1 / -1;
-            position: relative;
-            z-index: 1;
-        }
-
-        .project-image:hover,
-        .project-image:focus {
-            box-shadow: 0 20px 30px -15px var(--navy-shadow);
-        }
-
-        .project-image a {
-            width: 100%;
-            height: 100%;
-            background-color: var(--green);
-            border-radius: var(--border-radius);
-            vertical-align: middle;
-        }
-
-        .project-image a:hover:before,
-        .project-image a:focus:before {
-            background: transparent;
-        }
-
-        .project-image a:before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 3;
-            transition: var(--transition);
-            background-color: var(--navy);
-            mix-blend-mode: screen;
-        }
-
-        .project-image img,
-        .project-image-placeholder {
-            border-radius: var(--border-radius);
-            mix-blend-mode: multiply;
-            filter: grayscale(100%) contrast(1) brightness(90%);
-            transition: var(--transition);
-        }
-
-        .project-image-placeholder {
-            width: 100%;
-            height: 300px;
-            background: linear-gradient(135deg, var(--green) 0%, var(--blue) 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: var(--navy);
-        }
-
-        .project-image:hover img,
-        .project-image:focus img,
-        .project-image:hover .project-image-placeholder,
-        .project-image:focus .project-image-placeholder {
-            filter: none;
-            mix-blend-mode: normal;
-        }
-
-        /* Other Projects */
-        .other-projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 20px;
-            position: relative;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
             margin-top: 50px;
         }
 
-        .other-project {
-            position: relative;
-            cursor: default;
-            transition: var(--transition);
-            height: 100%;
-        }
-
-        .other-project:hover,
-        .other-project:focus {
-            transform: translateY(-7px);
-        }
-
-        .other-project-inner {
-            box-shadow: 0 10px 30px -15px var(--navy-shadow);
-            transition: var(--transition);
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-direction: column;
-            height: 100%;
-            min-height: 320px;
-            padding: 2rem 1.75rem;
-            border-radius: var(--border-radius);
+        .profile-card {
             background-color: var(--light-navy);
-            color: var(--light-slate);
-            word-wrap: break-word;
-            overflow-wrap: break-word;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            transition: var(--transition);
+            border: 1px solid var(--lightest-navy);
+            text-align: center;
         }
 
-        .other-project:hover .other-project-inner,
-        .other-project:focus-within .other-project-inner {
-            box-shadow: 0 20px 30px -15px var(--navy-shadow);
+        .profile-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--green);
         }
 
-        .other-project-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            width: 100%;
-        }
-
-        .folder {
-            color: var(--green);
-        }
-
-        .folder svg {
-            width: 40px;
-            height: 40px;
-        }
-
-        .other-project .project-links {
-            display: flex;
-            align-items: center;
-            margin-right: -10px;
-            color: var(--light-slate);
-            margin-left: 0;
-        }
-
-        .other-project-title {
-            margin: 0 0 15px;
+        .profile-card h3 {
             color: var(--lightest-slate);
-            font-size: var(--fz-xxl);
-            font-weight: 600;
-            line-height: 1.1;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            hyphens: auto;
+            margin-bottom: 15px;
+            font-size: var(--fz-xl);
         }
 
-        .other-project-description {
-            color: var(--light-slate);
-            font-size: var(--fz-lg);
-            line-height: 1.5;
-            flex-grow: 1;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-        }
-
-        .other-project-description p {
-            margin: 0;
-        }
-
-        .other-project-tech-list {
-            display: flex;
-            align-items: flex-end;
-            flex-wrap: wrap;
-            padding: 0;
-            margin: 25px 0 0 0;
-            list-style: none;
-            width: 100%;
-        }
-
-        .other-project-tech-list li {
-            font-family: var(--font-mono);
-            font-size: var(--fz-xxs);
-            line-height: 1.75;
-            margin-right: 15px;
-            margin-bottom: 7px;
+        .profile-card p {
             color: var(--slate);
-            white-space: nowrap;
+            margin-bottom: 20px;
+            line-height: 1.5;
         }
 
-        /* Contact */
+        .profile-card a {
+            color: var(--green);
+            text-decoration: none;
+            font-family: var(--font-mono);
+            font-size: var(--fz-sm);
+            transition: var(--transition);
+        }
+
+        .profile-card a:hover {
+            color: var(--blue);
+        }
+
+        .profile-card .icon {
+            font-size: 2rem;
+            color: var(--green);
+            margin-bottom: 20px;
+        }
+
         .contact {
             max-width: 600px;
             margin: 0 auto 100px;
@@ -920,11 +655,6 @@
             font-family: var(--font-mono);
             font-size: var(--fz-md);
             font-weight: 400;
-        }
-
-        .contact .overline:before {
-            bottom: 0;
-            font-size: var(--fz-sm);
         }
 
         .contact .title {
@@ -953,7 +683,6 @@
             background-color: var(--green-tint);
         }
 
-        /* Footer */
         footer {
             display: flex;
             justify-content: center;
@@ -963,10 +692,6 @@
             min-height: 70px;
             padding: 15px;
             text-align: center;
-        }
-
-        .footer-links {
-            display: none;
         }
 
         footer .credit {
@@ -986,7 +711,6 @@
             color: var(--green);
         }
 
-        /* Social Media Links */
         .social {
             display: flex;
             flex-direction: column;
@@ -1049,7 +773,6 @@
             transition: var(--transition);
         }
 
-        /* Email */
         .email {
             display: flex;
             flex-direction: column;
@@ -1090,89 +813,15 @@
             transform: translateY(-3px);
         }
 
-        /* Mobile Menu */
         .hamburger {
             display: none;
             background-color: transparent;
             border: 0;
             color: inherit;
             cursor: pointer;
-            position: relative;
-            text-transform: none;
-            transition-timing-function: linear;
-            transition-duration: 0.15s;
-            transition-property: opacity, filter;
             z-index: 99;
         }
 
-        .hamburger-box {
-            display: inline-block;
-            position: relative;
-            width: var(--hamburger-width);
-            height: 24px;
-        }
-
-        .hamburger-inner {
-            background-color: var(--green);
-            position: absolute;
-            width: var(--hamburger-width);
-            height: 2px;
-            border-radius: var(--border-radius);
-            top: 50%;
-            transform: translateY(-50%);
-            transition-duration: 0.22s;
-            transition-property: transform;
-        }
-
-        .hamburger-inner:before,
-        .hamburger-inner:after {
-            background-color: var(--green);
-            content: '';
-            display: block;
-            position: absolute;
-            width: var(--hamburger-width);
-            height: 2px;
-            border-radius: 4px;
-            transition-timing-function: ease;
-            transition-duration: 0.15s;
-            transition-property: transform;
-        }
-
-        .hamburger-inner:before {
-            width: 120%;
-            top: -10px;
-            left: 0;
-            transition: var(--ham-before);
-        }
-
-        .hamburger-inner:after {
-            width: 80%;
-            bottom: -10px;
-            right: 0;
-            transition: var(--ham-after);
-        }
-
-        .hamburger.active .hamburger-inner:before {
-            top: 0;
-            transform: rotate(45deg);
-            transition: var(--ham-before-active);
-        }
-
-        .hamburger.active .hamburger-inner:after {
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            transform: rotate(-45deg);
-            transition: var(--ham-after-active);
-        }
-
-        .hamburger.active .hamburger-inner {
-            transform: rotate(225deg);
-            transition-delay: 0.12s;
-            transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-        }
-
-        /* Mobile styles */
         @media (max-width: 768px) {
             header {
                 padding: 0px 25px;
@@ -1193,16 +842,8 @@
                 padding: 0 25px;
             }
 
-            .fillHeight {
-                padding: 0 25px;
-            }
-
             section {
                 padding: 60px 0;
-            }
-
-            .numbered-heading {
-                margin: 0 0 30px;
             }
 
             .numbered-heading:after {
@@ -1218,85 +859,9 @@
                 width: 70%;
             }
 
-            .project {
+            .profiles-grid {
                 grid-template-columns: 1fr;
-                margin-bottom: 70px;
-            }
-
-            .project:last-of-type {
-                margin-bottom: 70px;
-            }
-
-            .project.odd .project-content,
-            .project.even .project-content {
-                grid-column: 1 / -1;
-                padding: 40px 25px;
-                text-align: left;
-                box-shadow: 0 10px 30px -15px var(--navy-shadow);
-                background-color: var(--light-navy);
-                border-radius: var(--border-radius);
-            }
-
-            .project-overline {
-                margin: 0 0 20px;
-            }
-
-            .project-description {
-                padding: 0;
-                background-color: transparent;
-                box-shadow: none;
-            }
-
-            .project.even .project-description {
-                text-align: left;
-            }
-
-            .project-tech-list {
-                justify-content: flex-start;
-            }
-
-            .project.even .project-tech-list {
-                justify-content: flex-start;
-            }
-
-            .project-tech-list li {
-                margin: 0 10px 5px 0;
-            }
-
-            .project.even .project-tech-list li {
-                margin: 0 10px 5px 0;
-            }
-
-            .project-links {
-                justify-content: flex-start;
-                margin-left: -10px;
-                margin-right: 0;
-            }
-
-            .project.even .project-links {
-                justify-content: flex-start;
-                margin-left: -10px;
-                margin-right: 0;
-            }
-
-            .project-image {
-                grid-column: 1 / -1;
-                opacity: 0.25;
-                z-index: 1;
-            }
-
-            .project.even .project-image {
-                grid-column: 1 / -1;
-            }
-
-            .other-projects {
-                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-                gap: 15px;
-            }
-
-            .other-project-inner {
-                min-height: 300px;
-                padding: 1.75rem;
+                gap: 20px;
             }
 
             .social {
@@ -1316,100 +881,9 @@
                 display: none;
             }
 
-            .social li:last-of-type {
-                margin-right: 20px;
-            }
-
             .email {
                 display: none;
             }
-        }
-
-        @media (max-width: 480px) {
-            .hero h2 {
-                font-size: clamp(30px, 8vw, 60px);
-            }
-
-            .hero h3 {
-                font-size: clamp(30px, 8vw, 60px);
-            }
-
-            .other-projects {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-
-            .other-project-inner {
-                min-height: 280px;
-                padding: 1.5rem;
-            }
-
-            .other-project-title {
-                font-size: var(--fz-xl);
-                line-height: 1.2;
-            }
-
-            .other-project-description {
-                font-size: var(--fz-md);
-            }
-
-            .jobs-tabs {
-                display: flex;
-                overflow-x: auto;
-                width: calc(100% + 100px);
-                padding-left: 50px;
-                margin-left: -50px;
-            }
-
-            .jobs-tabs:before {
-                content: '';
-                position: absolute;
-                top: auto;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                z-index: 10;
-                width: calc(var(--activeTabIndex) * var(--tab-width) + var(--tab-width));
-                height: 2px;
-                background: var(--green);
-                transform: translateX(calc(var(--activeTabIndex) * var(--tab-width)));
-                transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-                transition-delay: 0.1s;
-            }
-
-            .jobs-tab {
-                min-width: var(--tab-width);
-                border-left: 0;
-                border-bottom: 2px solid var(--lightest-navy);
-                text-align: center;
-            }
-
-            .jobs-content {
-                padding-left: 0;
-            }
-        }
-
-        /* Animations */
-        .fadeup-enter {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-
-        .fadeup-enter-active {
-            opacity: 1;
-            transform: translateY(0px);
-        }
-
-        .sr-only {
-            border: 0;
-            clip: rect(0, 0, 0, 0);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px;
         }
     </style>
 </head>
@@ -1420,18 +894,36 @@
     <div class="social">
         <ul>
             <li>
-                <a href="https://github.com/koladeafeez" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/koladeafeez" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <title>GitHub</title>
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/kolade-afeez-2233a2175" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/kolade-afeez-2233a2175" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <title>LinkedIn</title>
                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                         <rect x="2" y="9" width="4" height="12"></rect>
                         <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/koladeafeez" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <title>Twitter</title>
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://koladeafeez.substack.com" target="_blank" rel="noopener noreferrer" aria-label="Substack Newsletter">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                        <title>Substack</title>
+                        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
                     </svg>
                 </a>
             </li>
@@ -1440,20 +932,20 @@
 
     <!-- Email -->
     <div class="email">
-        <a href="mailto:kola.s.afeez@gmail.com ">kola.s.afeez@gmail.com </a>
+        <a href="mailto:kola.s.afeez@gmail.com">kola.s.afeez@gmail.com</a>
     </div>
 
     <!-- Header -->
     <header>
         <nav>
             <div class="logo">
-                <a href="/">KOLA AFEEZ</a>
+                <a href="/">KA</a>
             </div>
 
             <ul class="nav">
                 <li><a href="#about">About</a></li>
                 <li><a href="#jobs">Experience</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#profiles">Profiles</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
@@ -1536,14 +1028,14 @@
         <section id="jobs">
             <h2 class="numbered-heading">Where I've Worked</h2>
             <div class="jobs">
-                <div class="jobs-tabs" role="tablist" style="--activeTabIndex: 0;">
-                    <button class="jobs-tab active" role="tab" data-tab="0">Intend Business</button>
-                    <button class="jobs-tab" role="tab" data-tab="1">Sterling Bank</button>
-                    <button class="jobs-tab" role="tab" data-tab="2">KLAR Financial</button>
-                    <button class="jobs-tab" role="tab" data-tab="3">Chams PLC</button>
+                <div class="jobs-tabs" style="--activeTabIndex: 0;">
+                    <button class="jobs-tab active" data-tab="0">Intend Business</button>
+                    <button class="jobs-tab" data-tab="1">Sterling Bank</button>
+                    <button class="jobs-tab" data-tab="2">KLAR Financial</button>
+                    <button class="jobs-tab" data-tab="3">Chams PLC</button>
                 </div>
                 <div class="jobs-content">
-                    <div class="job-panel active" id="panel-0" role="tabpanel">
+                    <div class="job-panel active" id="panel-0">
                         <h3>
                             Software Developer (Contract)
                             <span class="company">@ Intend Business Development</span>
@@ -1558,7 +1050,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="job-panel" id="panel-1" role="tabpanel">
+                    <div class="job-panel" id="panel-1">
                         <h3>
                             Software Developer (Full-time) 
                             <span class="company">@ Sterling Bank (Uridium Technologies)</span>
@@ -1573,7 +1065,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="job-panel" id="panel-2" role="tabpanel">
+                    <div class="job-panel" id="panel-2">
                         <h3>
                             .NET Developer (Contract/Remote) 
                             <span class="company">@ KLAR Financial Institute</span>
@@ -1588,7 +1080,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="job-panel" id="panel-3" role="tabpanel">
+                    <div class="job-panel" id="panel-3">
                         <h3>
                             Software Developer 
                             <span class="company">@ Chams PLC</span>
@@ -1607,289 +1099,66 @@
             </div>
         </section>
 
-        <!-- Featured Projects -->
-        <section id="work">
-            <h2 class="numbered-heading">Some Things I've Built</h2>
-            <ul class="projects-grid">
-                <li class="project odd">
-                    <div class="project-content">
-                        <div>
-                            <p class="project-overline">Featured Project</p>
-                            <h3 class="project-title">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    AI-Powered Tender Management System
-                                </a>
-                            </h3>
-                            <div class="project-description">
-                                <p>
-                                    A comprehensive tender management system with AI-powered bid writing capabilities. This system automates 
-                                    the entire tender lifecycle from requirements gathering to deployment, serving as my Master's dissertation 
-                                    project. Features include intelligent document processing, automated proposal generation, and robust 
-                                    stakeholder collaboration tools.
-                                </p>
-                            </div>
-                            <ul class="project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>React.js</li>
-                                <li>PostgreSQL</li>
-                                <li>MongoDB</li>
-                                <li>RabbitMQ</li>
-                                <li>Azure AI Services</li>
-                                <li>Machine Learning</li>
-                            </ul>
-                            <div class="project-links">
-                                <a href="#" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Professional Profiles -->
+        <section id="profiles" class="profile-links">
+            <h2 class="numbered-heading">My Professional Profiles</h2>
+            <p>Connect with me across different platforms where I share insights, write about technology, and showcase my work.</p>
+            
+            <div class="profiles-grid">
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
                     </div>
-                    <div class="project-image">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <div class="project-image-placeholder">
-                                <i class="fas fa-robot"></i>
-                            </div>
-                        </a>
+                    <h3>GitHub</h3>
+                    <p>Check out my open-source projects, contributions, and code repositories showcasing my software development skills.</p>
+                    <a href="https://github.com/koladeafeez" target="_blank" rel="noopener noreferrer">Visit GitHub →</a>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fab fa-linkedin"></i>
                     </div>
-                </li>
-
-                <li class="project even">
-                    <div class="project-content">
-                        <div>
-                            <p class="project-overline">Featured Project</p>
-                            <h3 class="project-title">
-                                <a href="https://altbank.ng/" target="_blank" rel="noopener noreferrer">
-                                    Core Banking Solution
-                                </a>
-                            </h3>
-                            <div class="project-description">
-                                <p>
-                                    Led the migration of a monolithic banking application to microservices architecture, reducing downtime by 50% 
-                                    and improving scalability by 40%. Implemented advanced query optimization techniques that cut execution time by 20%. 
-                                    The solution handles millions of transactions daily with robust security and compliance features.
-                                </p>
-                            </div>
-                            <ul class="project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>Microservices</li>
-                                <li>PostgreSQL</li>
-                                <li>MongoDB</li>
-                                <li>RabbitMQ</li>
-                                <li>Azure DevOps</li>
-                                <li>Docker</li>
-                            </ul>
-                            <div class="project-links">
-                                <a href="https://altbank.ng/" aria-label="External Link" target="_blank" rel="noopener noreferrer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                        <polyline points="15,3 21,3 21,9"></polyline>
-                                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                    <h3>LinkedIn</h3>
+                    <p>Professional network and career updates. Connect with me to discuss opportunities and industry insights.</p>
+                    <a href="https://www.linkedin.com/in/kolade-afeez-2233a2175" target="_blank" rel="noopener noreferrer">Connect on LinkedIn →</a>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
                     </div>
-                    <div class="project-image">
-                        <a href="https://altbank.ng/" target="_blank" rel="noopener noreferrer">
-                            <div class="project-image-placeholder">
-                                <i class="fas fa-university"></i>
-                            </div>
-                        </a>
+                    <h3>Twitter / X</h3>
+                    <p>Follow my thoughts on software development, AI, fintech trends, and tech industry discussions.</p>
+                    <a href="https://twitter.com/koladeafeez" target="_blank" rel="noopener noreferrer">Follow on Twitter →</a>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fas fa-newspaper"></i>
                     </div>
-                </li>
-
-                <li class="project odd">
-                    <div class="project-content">
-                        <div>
-                            <p class="project-overline">Featured Project</p>
-                            <h3 class="project-title">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    Unified Banking & Accounting Platform
-                                </a>
-                            </h3>
-                            <div class="project-description">
-                                <p>
-                                    Integrated open banking APIs and multiple Payment Service Providers (PSPs) into a unified platform, 
-                                    improving transaction reliability by 40% and boosting operational efficiency. Built customer onboarding 
-                                    systems that increased acquisition efficiency by 30% while maintaining the highest security standards.
-                                </p>
-                            </div>
-                            <ul class="project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>Open Banking APIs</li>
-                                <li>PostgreSQL</li>
-                                <li>MongoDB</li>
-                                <li>Redis</li>
-                                <li>AWS</li>
-                                <li>Azure</li>
-                            </ul>
-                            <div class="project-links">
-                                <a href="https://dash.klarbanking.com/signup" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                    <h3>Substack Newsletter</h3>
+                    <p>Subscribe to my newsletter where I write about software engineering, AI developments, and career insights.</p>
+                    <a href="https://koladeafeez.substack.com" target="_blank" rel="noopener noreferrer">Subscribe to Newsletter →</a>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <div class="project-image">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <div class="project-image-placeholder">
-                                <i class="fas fa-credit-card"></i>
-                            </div>
-                        </a>
+                    <h3>F6S Startup Profile</h3>
+                    <p>My startup and entrepreneurship profile, showcasing projects and connecting with the startup ecosystem.</p>
+                    <a href="https://www.f6s.com/kolade-afeez" target="_blank" rel="noopener noreferrer">View F6S Profile →</a>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon">
+                        <i class="fas fa-university"></i>
                     </div>
-                </li>
-            </ul>
-
-            <!-- Other noteworthy projects -->
-            <h3 style="margin-top: 80px;">Other Noteworthy Projects</h3>
-            <ul class="other-projects">
-                <li class="other-project">
-                    <div class="other-project-inner">
-                        <header>
-                            <div class="other-project-top">
-                                <div class="folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://www.ppai.ng/" aria-label="External Link" target="_blank" rel="noopener noreferrer">
-                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                            <polyline points="15,3 21,3 21,9"></polyline>
-                                            <line x1="10" y1="14" x2="21" y2="3"></line>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <h3 class="other-project-title">Identity Verification Platform</h3>
-                            <div class="other-project-description">
-                                <p>Enhanced identity verification systems with multi-payment options integration, improving user flexibility and convenience while maintaining the highest security standards for sensitive data processing.</p>
-                            </div>
-                        </header>
-                        <footer>
-                            <ul class="other-project-tech-list">
-                                <li>ASP.NET Core</li>
-                                <li>JavaScript</li>
-                                <li>Payment APIs</li>
-                                <li>SQL Server</li>
-                                <li>Security</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-
-                <li class="other-project">
-                    <div class="other-project-inner">
-                        <header>
-                            <div class="other-project-top">
-                                <div class="folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <h3 class="other-project-title">Loan Management System (Gazelle)</h3>
-                            <div class="other-project-description">
-                                <p>Worked as a full-stack developer on a scalable microservices platform for Sterling Bank, improving customer engagement by 25% and streamlining loan approval workflows with automated processing.</p>
-                            </div>
-                        </header>
-                        <footer>
-                            <ul class="other-project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>React.js</li>
-                                <li>Microservices</li>
-                                <li>PostgreSQL</li>
-                                <li>RabbitMQ</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-
-                <li class="other-project">
-                    <div class="other-project-inner">
-                        <header>
-                            <div class="other-project-top">
-                                <div class="folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <h3 class="other-project-title">Payment Service Provider Integration</h3>
-                            <div class="other-project-description">
-                                <p>Integrated multiple PSPs into KLAR's banking platform, increasing transaction volume by 25%. Implemented robust error handling, transaction monitoring, and compliance features for international payments.</p>
-                            </div>
-                        </header>
-                        <footer>
-                            <ul class="other-project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>Payment APIs</li>
-                                <li>PostgreSQL</li>
-                                <li>Redis</li>
-                                <li>Docker</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-
-                <li class="other-project">
-                    <div class="other-project-inner">
-                        <header>
-                            <div class="other-project-top">
-                                <div class="folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <h3 class="other-project-title">Legacy API Migration</h3>
-                            <div class="other-project-description">
-                                <p>Successfully migrated legacy APIs to ASP.NET Core at Chams PLC, improving performance and maintainability. Reduced response times by 60% and enhanced system reliability for critical financial operations.</p>
-                            </div>
-                        </header>
-                        <footer>
-                            <ul class="other-project-tech-list">
-                                <li>ASP.NET Core</li>
-                                <li>API Migration</li>
-                                <li>SQL Server</li>
-                                <li>Performance Optimization</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-
-                <li class="other-project">
-                    <div class="other-project-inner">
-                        <header>
-                            <div class="other-project-top">
-                                <div class="folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <h3 class="other-project-title">Customer Onboarding System</h3>
-                            <div class="other-project-description">
-                                <p>Built a comprehensive customer onboarding system for KLAR Banking that improved efficiency by 30%. Features include automated KYC verification, document processing, and seamless account activation workflows.</p>
-                            </div>
-                        </header>
-                        <footer>
-                            <ul class="other-project-tech-list">
-                                <li>C# .NET Core</li>
-                                <li>React.js</li>
-                                <li>KYC Integration</li>
-                                <li>Document Processing</li>
-                                <li>PostgreSQL</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-            </ul>
+                    <h3>University of Stirling</h3>
+                    <p>Currently pursuing MSc in Artificial Intelligence, focusing on AI applications in business automation.</p>
+                    <a href="https://www.stir.ac.uk/" target="_blank" rel="noopener noreferrer">Learn About My Studies →</a>
+                </div>
+            </div>
         </section>
 
         <!-- Contact -->
@@ -1902,21 +1171,20 @@
                 AI integration, and fintech innovation. Whether you have a project in mind or just want to connect, 
                 I'd love to hear from you!
             </p>
-            <a class="email-link" href="mailto:koladeafeez60@gmail.com">Say Hello</a>
+            <a class="email-link" href="mailto:kola.s.afeez@gmail.com">Say Hello</a>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="credit">
-            <p>Built by Kola Afeez</p>
+            <p>Built by <a href="https://github.com/koladeafeez" target="_blank" rel="noopener noreferrer">Kola Afeez</a> | Optimized for SEO and Performance</p>
         </div>
     </footer>
 
     <script>
         // Mobile menu toggle
         const hamburger = document.querySelector('.hamburger');
-        const nav = document.querySelector('.nav');
         
         if (hamburger) {
             hamburger.addEventListener('click', () => {
@@ -1925,7 +1193,6 @@
         }
 
         // Header scroll effect
-        let lastScrollTop = 0;
         const header = document.querySelector('header');
         
         window.addEventListener('scroll', () => {
@@ -1936,8 +1203,6 @@
             } else if (scrollTop <= 0 && header.classList.contains('scrolled')) {
                 header.classList.remove('scrolled');
             }
-            
-            lastScrollTop = scrollTop;
         });
 
         // Experience tabs
@@ -1947,15 +1212,12 @@
         
         tabs.forEach((tab, index) => {
             tab.addEventListener('click', () => {
-                // Remove active class from all tabs and panels
                 tabs.forEach(t => t.classList.remove('active'));
                 panels.forEach(p => p.classList.remove('active'));
                 
-                // Add active class to clicked tab and corresponding panel
                 tab.classList.add('active');
                 panels[index].classList.add('active');
                 
-                // Update CSS custom property for tab indicator
                 tabsContainer.style.setProperty('--activeTabIndex', index);
             });
         });
@@ -1977,43 +1239,74 @@
             });
         });
 
-        // Fade in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+        // SEO Enhancement: Track page views and interactions
+        if (typeof gtag !== 'undefined') {
+            // Track section views
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fadeup-enter-active');
-                    observer.unobserve(entry.target);
-                }
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const sectionId = entry.target.id;
+                        if (sectionId) {
+                            gtag('event', 'section_view', {
+                                'section_name': sectionId,
+                                'engagement_time_msec': 1000
+                            });
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section[id]').forEach(section => {
+                sectionObserver.observe(section);
             });
-        }, observerOptions);
 
-        // Observe sections for animation
-        document.querySelectorAll('section, .project, .other-project').forEach(el => {
-            el.classList.add('fadeup-enter');
-            observer.observe(el);
-        });
+            // Track external link clicks
+            document.querySelectorAll('a[href^="http"], a[href^="mailto:"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    const linkText = this.textContent || this.getAttribute('aria-label') || 'unknown';
+                    const linkUrl = this.href;
+                    
+                    gtag('event', 'click', {
+                        'event_category': 'external_link',
+                        'event_label': linkText,
+                        'value': linkUrl
+                    });
+                });
+            });
+        }
 
-        // Initial setup for hero animation
+        // Enhanced page load performance
         window.addEventListener('load', () => {
-            const heroElements = document.querySelectorAll('.hero h1, .hero h2, .hero h3, .hero p');
-            heroElements.forEach((el, index) => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(30px)';
-                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-                
-                setTimeout(() => {
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, index * 150);
-            });
+            // Fade in animation
+            document.body.style.opacity = '1';
+            
+            // Lazy load images if any
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            if (img.dataset.src) {
+                                img.src = img.dataset.src;
+                                img.classList.remove('lazy');
+                                observer.unobserve(img);
+                            }
+                        }
+                    });
+                });
+
+                document.querySelectorAll('img[data-src]').forEach(img => {
+                    imageObserver.observe(img);
+                });
+            }
         });
 
-        // Enhanced scroll behavior for navigation highlighting
+        // Navigation highlighting based on scroll position
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('.nav a');
 
@@ -2038,13 +1331,6 @@
             });
         });
 
-        // Preloader effect
-        document.body.style.opacity = '0';
-        window.addEventListener('load', () => {
-            document.body.style.transition = 'opacity 0.3s ease';
-            document.body.style.opacity = '1';
-        });
-
         // Console message for developers
         console.log(`
         ██╗  ██╗ ██████╗ ██╗      █████╗ 
@@ -2056,11 +1342,10 @@
         
         Hey there! 👋
         
-        Thanks for checking out my portfolio. 
-        If you're interested in working together,
-        feel free to reach out!
+        Thanks for checking out my SEO-optimized portfolio. 
+        This site is built with performance and discoverability in mind.
         
-        Email: koladeafeez60@gmail.com
+        Email: kola.s.afeez@gmail.com
         `);
     </script>
 </body>
